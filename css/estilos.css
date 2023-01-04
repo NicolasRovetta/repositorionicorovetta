@@ -1,0 +1,75 @@
+* {
+    color: blue;/**se lo aplica a todo el texto del documento excepto a los que estan especificados con otro color*/
+}
+p,span {
+    color: red;
+    width: 300px;
+}
+/**
+ESTO ES UN COMENTARIO EN CSS
+*/
+h1 {
+    font-weight: bold;
+    color: blueviolet;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/**genero un BOX(una caja) para utilizar a modo estandarizado*/
+section {
+    width: 300px;
+    border: 15px solid brown;
+    padding: 50px;
+    margin: 20px;
+    background-color: black;
+    }
+
+#parrafo {
+    color: darkolivegreen;
+    font-size: 30px;
+    border: 2px solid orange;
+}
+
+#parrafo_2 {
+    color: rgb(4, 146, 63);
+    font-size: 20px;
+    border: 1px solid black;
+}
+/**para el atributo class=le pongo un nombre a continuacion de un punto "." para asignar a diferentes elementos de HTML las mismas caracteristicas*/
+.clase_especifica { 
+    color: maroon;
+    font-size: 25px;
+}
+/**Ejemplo dos columnas:asegura que el relleno y el borde estén incluidos en el ancho y alto total de los elementos
+* {
+    box-sizing: border-box;
+}
+.menu {
+    width: 25%;
+    float: left;
+  }
+  .main {
+    width: 75%;
+    float: left;
+  }*/
+  /** grilla con 12 columnas con una clase para cada una
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+*/
