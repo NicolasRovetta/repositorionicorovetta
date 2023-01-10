@@ -4,6 +4,6 @@ console.log("Capturamos el evento click");
 document.getElementById("demo").innerHTML = "Probando elemento en JS";
 }
 
-document.addEventListener("click", function()) {
+document.addEventListener ,"click" ,function() {
     console.log("Hola mundo desde EventListener");
 }
